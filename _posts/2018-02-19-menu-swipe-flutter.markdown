@@ -15,11 +15,10 @@ Comment réaliser un menu swipe (burger) dans une application Flutter.
 1. ajout de la dépendance dans le fichier pubspec.yaml du projet
 
 ```yaml
-dependecies:
-    menu_swipe_helpers: 
-      git:
-        url: https://github.com/fidelisa/flutter_plugins.git
-        path: menu_swipe_helpers
+menu_swipe_helpers:
+    git:
+      url: https://github.com/fidelisa/flutter_plugins.git
+      path: packages/menu_swipe_helpers
 ```
 ```shell
 flutter packages get
