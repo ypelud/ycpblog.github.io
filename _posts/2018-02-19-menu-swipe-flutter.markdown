@@ -3,6 +3,7 @@ layout: post
 title:  "Flutter: menu swipe"
 date:   2018-02-19 12:23:28 +0100
 categories: flutter dart
+comments: true
 ---
 
 Comment réaliser un menu swipe (burger) dans une application Flutter. 

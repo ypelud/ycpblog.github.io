@@ -31,6 +31,8 @@ plugins:
 
 google_analytics: UA-15413013-4
 
+disqus:
+  shortname: ycpblog
 
 
 # Exclude from processing.
