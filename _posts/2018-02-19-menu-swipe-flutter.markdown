@@ -32,7 +32,7 @@ import 'package:menu_swipe_helpers/menu_swipe_helpers.dart';
 
 ## Utilisation du plugin
 
-Le déroulé présenté ici utilise tous les helpers du plugin mais vous pouvez à tout moment utiliser des classes de base (voir ThirdPage dans [exemple](https://github.com/fidelisa/flutter_plugins/tree/master/examples/menu_swipe)).
+Le déroulé présenté ici utilise tous les helpers du plugin mais vous pouvez à tout moment utiliser des classes de base (voir ThirdPage dans [exemple](https://github.com/fidelisa/flutter_plugins/tree/master/packages/menu_swipe_helpers/example)).
 
 ### Créer une page
 
