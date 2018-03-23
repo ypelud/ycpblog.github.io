@@ -65,7 +65,7 @@ Par exemple pour afficher le texte "Connecté":
 
 ```dart
 new Text(
-  GlobalMaterialLocalizations.of(context).signedInLabel,
+  MaterialLocalizations.of(context).signedInLabel,
 ),
 ```
 
