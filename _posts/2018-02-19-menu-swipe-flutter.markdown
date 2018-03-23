@@ -139,4 +139,4 @@ Il ne reste plus qu'a créer le composant racine de notre application. Il faut e
 Et voilà ...
 
 ## Sources 
-Plugins et exemples : [https://github.com/fidelisa/flutter_plugins](https://github.com/fidelisa/flutter_plugins)
+Plugins et exemples : [menu_swipe_helpers](https://github.com/fidelisa/flutter_plugins/tree/master/packages/menu_swipe_helpers)
