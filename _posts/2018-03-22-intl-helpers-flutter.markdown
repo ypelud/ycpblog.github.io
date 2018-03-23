@@ -59,7 +59,7 @@ Widget build(BuildContext context) {
 
 ### Utilisation d'une traduction fournie par Flutter
 
-Nous pouvons utiliser les traductions qui sont fournis par le plugin direcement en utilisant `GlobalMaterialLocalizations.of(context).<traduction_name>`. 
+Nous pouvons utiliser les traductions qui sont fournis par le plugin directement en utilisant `GlobalMaterialLocalizations.of(context).<traduction_name>`. 
 
 Par exemple pour afficher le texte "Connecté":
 
@@ -82,9 +82,9 @@ new Text(
 ),
 ```
 
-Le texte apparait dans la langue du téléphone (français j'imagine), si vous passez en anglais le texte s'adaptera automatiquement.
+Le texte apparaît dans la langue du téléphone (français j'imagine), si vous passez en anglais le texte s'adaptera automatiquement.
 
-## Créer ces propres traductions
+## Créer ses propres traductions
 
 ### Mise en place d'un première traduction (unitaire)
 
@@ -92,7 +92,7 @@ Nous pouvons ajouter un texte à traduire directement dans le source avec `Intl.
 
 Le premier paramètre est la chaîne à traduire, qui peut être interpolé basé sur une ou plusieurs variables. Le [name] du message doit correspondre au nom de la fonction englobante. Pour les méthodes, il peut aussi être className_methodName (ex: _HomePageState_welcome). 
 Le nom doit également être globalement unique dans le programme.
-Le tableau [args] correspond aux arguments à interpoller, [desc] fournit une description de l'utilisation.
+Le tableau [args] correspond aux arguments à interpoler, [desc] fournit une description de l'utilisation.
 
 ```dart
 String welcome(name) => Intl.message('Bienvenue, $name',
@@ -152,7 +152,7 @@ Nous pouvons utiliser `intl_translation` pour extraire les traductions dans un f
 ```shell
 mkdir lib/l10n
 flutter pub pub global run intl_translation:extract_to_arb \
-  --output-dir=lib/l10n lib/main.dart
+  --output-dir=lib/l10n lib/**/*.dart
 ```
 
 ### Traduire et préparer les fichiers de traductions
