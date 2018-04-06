@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Flutter: Changer de langage sans redémarrer"
+title:  "Flutter: Changer de langue sans redémarrer"
 date:   2018-04-05 07:23:28 +0100
 categories: flutter dart
 comments: true
